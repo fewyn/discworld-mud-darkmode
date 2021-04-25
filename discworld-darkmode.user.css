@@ -8,7 +8,8 @@
 ==/UserStyle== */
 
 @-moz-document domain("dwwiki.mooo.com"),
-               domain("discworld.starturtle.net") {
+               domain("discworld.starturtle.net"),
+               domain("discworld.atuin.net") {
 
 html {
     background: #000000   !important;
