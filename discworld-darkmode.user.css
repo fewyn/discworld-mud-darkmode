@@ -21,7 +21,7 @@ html {
     color: #999 !important;
     text-shadow: 0 0 3px #000 !important;
     box-shadow: none !important;
-    background-color: transparent !important;
+    background-color: #000 !important;
     border-color: #444 !important;
     border-top-color: #444 !important;
     border-bottom-color: #444 !important;
@@ -33,7 +33,7 @@ body {
 }
 *:before,
 *:after {
-    background-color: transparent !important;
+    background-color: #000 !important;
     border-color: #444 !important
 }
 
@@ -134,12 +134,12 @@ div[role="navigation"] {
 }
 
 table {
-    background: rgba(40, 30, 30, .6) !important;
+    background: #000000 !important;
     border-radius: 6px !important
 }
 table > tbody > tr:nth-child(even),
 table > tbody > tr > td:nth-child(even) {
-    background-color: rgba(0, 0, 0, .2) !important
+    background-color: #000000 !important
 }
 
 iframe,
@@ -413,8 +413,7 @@ body,
 }
 
 img {
-    opacity: .7 !important;
-    transition: opacity .2s
+
 }
 img:hover,
 a:hover img,
